@@ -1,0 +1,15 @@
+@lost gutter 0px;
+$bs2_height: 910;
+$bs2_width: 1500;
+
+.container {
+  z-index: 999;
+  width: 100%;
+  height: calc(($bs2_height/ $bs2_width) * 19vw);
+  lost-column: 1;
+}
+
+.test1 {
+  z-index: 999;
+  lost-column: 1;
+}

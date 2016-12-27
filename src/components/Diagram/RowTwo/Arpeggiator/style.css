@@ -1,0 +1,13 @@
+
+.container {
+  z-index: 999;
+  background-color: #f4a4c6;
+  /*lost-column: 1/4;*/
+  lost-column: 21.8/100;
+  height: 100%;
+}
+
+.test1 {
+  z-index: 999;
+  lost-column: 1;
+}

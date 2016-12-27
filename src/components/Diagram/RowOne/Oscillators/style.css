@@ -1,0 +1,36 @@
+$bs2_height: 910;
+$bs2_width: 1500;
+/*@lost gutter 0*/
+
+.container {
+  z-index: 999;
+  background-color: rgba(0,0,255,0.5);
+  lost-column: 34.2/100;
+  height: 100%;
+}
+
+.wrapper {
+  padding-left: 2.8%;
+}
+
+.topBuffer {
+  z-index: 999;
+  lost-column: 1;
+  height: calc(($bs2_height/ $bs2_width) * 3vw);
+}
+
+.knob {
+  z-index: 999;
+  lost-column: 1/6;
+  height: calc(($bs2_height/ $bs2_width) * 9vw);
+
+  background-color: rgba(26,188,156 ,.25);
+}
+
+.switch {
+  z-index: 999;
+  lost-column: 1/6;
+  height: calc(($bs2_height/ $bs2_width) * 10vw);
+
+  background-color: rgba(26,188,156 ,.3);
+}

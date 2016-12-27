@@ -1,0 +1,17 @@
+$bs2_height: 910;
+$bs2_width: 1500;
+
+.diagram {
+  z-index: -999;
+  position: relative;
+  background-color: red;
+  color: blue;
+  background-image: url(../../assets/images/bs2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  /*height: auto;*/
+  /*padding-top: 66.64%;*/
+  /*padding-top: percentage($bs2_height / $bs2_width)*/
+  padding-top: calc(($bs2_height / $bs2_width) * 100%)
+}
