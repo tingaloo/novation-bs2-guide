@@ -1,0 +1,27 @@
+$bs2_height: 910;
+$bs2_width: 1500;
+$blue: #0eb7da;
+
+.knob {
+  z-index: 999;
+  lost-column: 1/6;
+  height: calc(($bs2_height/ $bs2_width) * 9vw);
+
+  background-color: rgba(26,188,156 ,.25);
+
+  /*&:hover {
+    background-color: rgba(26,188,156 ,1);
+
+  }*/
+
+}
+
+.circle {
+  border-radius: 100%;
+  box-shadow: none;
+
+  &::before,
+  &::after {
+    border-radius: 100%;
+  }
+}

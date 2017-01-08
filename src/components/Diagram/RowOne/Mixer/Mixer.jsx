@@ -9,6 +9,9 @@ export default function Master() {
         <div className={style.knob}>
           Absolute positioned
         </div>
+        <div className={style.knob}>
+          Absolute positioned
+        </div>
 
         </div>
     </div>
